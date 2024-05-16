@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+        <!--icon on tab-->
+        <link rel="icon" type="image/x-icon" href="https://cdn140.picsart.com/235646129040212.png?r1024x1024">
+
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!--title-->
+        <title>NMT Characters</title>
+
+        <!--css-->
+        <style>
+            body {
+                /*font*/
+                font-family: 'Kanit', sans-serif;
+
+                /*background*/
+                background-image: url(https://img.freepik.com/premium-photo/abstract-blue-pink-neon-studio-background-product-presentation-empty-room-with-shadows-window-display-product-with-blurred-backdrop_155275-554.jpg);
+                background-size: 1800px; 
+            }
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 10vh;
+            }
+
+            .navbar-nav {
+                display: flex;
+                align-items: center;
+            }
+
+            .navbar-nav .nav-item {
+                margin-right: 15px;
+            }
+
+            .search-form {
+                margin-left: auto;
+            }
+
+            .container {
+                background-image: url(https://wallpapercave.com/wp/wp5069192.jpg);
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            .philippines {
+                text-align: center;
+                color: black;
+                font-weight: bold;
+                border: 4px solid black;
+                border-radius: 5px;
+                background-color: seashell;
+            }
+
+            .head {
+                text-align: center;
+                color: black;
+                font-weight: bold;
+                border: 4px solid black;
+                border-radius: 15px;
+                margin: 20px 0;
+                background-color: lightslategrey;
+            }
+
+            .destination{
+                background-color:seashell;
+                opacity: 0.6 px;
+                padding: 20px;
+                border: 5px solid;
+                border-radius: 10px;
+                text-align: left;
+                width: 350px;
+                margin: 15px;  
+                flex-wrap:wrap;
+                flex-direction: row;
+            }
+
+            .destination-img {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                width:100px;
+            }
+
+            .main {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .footer {
+                text-align: center;
+                color: black;
+                font-weight: bold;
+                border: 4px solid black;
+                border-radius: 15px;
+                margin-top: 20px 0;
+                background-color: lightslategrey;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!--navbar-->
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <!--logo created for ve project-->
+                    <img src="Pawsitive Guardians.png" alt="Pawsitive Guardians Logo" width="50px"> 
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+
+                        <!--when clicked, redirects to 1st qtr project-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Page1.html">1st Qtr</a>
+                        </li>
+
+                        <!--when clicked, redirects to 2nd qtr project-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Page2.html">2nd Qtr</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--search bar-->
+                <form class="d-flex" id="search">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
+        <br>
+
+        <!--2nd qtr project-->
+        <div class="container">
+            <br>
+            <div class="head">
+                <h1>Philippines Photo Gallery</h1>
+            </div>
+
+            <div class="philippines">
+                <p>The Philippines is a country in Southeast Asia best known for the beautiful scenery, especially the beaches.</p>
+                <p>Here are some top destinations in the Philippines</p>
+            </div>
+
+            <div class="main">
+                <div class="destination">
+                    <h2>Boracay</h2>
+                    <ul>
+                        <li>is a resort island in the Western Visayas region.</li>
+                        <li>Recommended place/s to visit: Puka Shell Beach</li>
+                    </ul>
+                    <img src="https://a.cdn-hotels.com/gdcs/production5/d320/a0c5a994-d99a-4278-a1b1-8a3b652461ac.jpg" width="300px">
+                </div>
+
+                <div class="destination">
+                    <h2>Puerto Princesa</h2>
+                    <ul>
+                        <li>is the capital and major flight gateway in Palawan.</li>
+                        <li>Recommended place/s to visit: the Underground River</li>
+                    </ul>
+                    <img src="https://2.bp.blogspot.com/-Acdr1A5JAuw/WaGHz_iZKnI/AAAAAAAAu5I/cniwuJ2D1QwmWF_IOMqdOKysQw3C_AKowCLcBGAs/s1600/11.%2BUR%2BPhoto.JPG" width="300px">
+                </div>
+
+                <div class="destination">
+                    <h2>Baguio</h2>
+                    <ul>
+                        <li>Baguio City offers a cool climate, urban comforts, etc.</li>
+                        <li>Recommended place/s to visit: Burnham Park (go karts, boats, etc)</li>
+                    </ul>
+                    <img src="http://www.traveltothephilippines.info/wp-content/uploads/2020/09/Baguio15.jpg" width="300px">
+                </div>
+
+                <div class="destination">
+                    <h2>Cebu</h2>
+                    <ul>
+                        <li>is the no.1 most visited tourist destination.</li>
+                        <li>Recommended place/s to visit: sites (waterfalls, beaches, etc.)</li>            
+                    </ul>
+                    <img src="https://www.roadaffair.com/wp-content/uploads/2019/08/beach-moalboal-cebu-philippines-shutterstock_1189667527.jpg" width="300px">
+                </div>
+
+                <div class="destination">
+                    <h2>Tagaytay</h2>
+                    <ul>
+                        <li>is a popular vacation spot near Manila.</li>
+                        <li>Recommended place/s to visit: Taal Volcano</li>
+                    </ul>
+                    <img src="https://cdn.urlaubsguru.at/wp-content/uploads/2017/01/shutterstock_171320468-2.jpg" width="300px">
+                </div>
+
+                <div class="destination">
+                    <h2>Bohol</h2>
+                    <ul>
+                        <li>is known for The Chocolate Hills, the bug-eyed Tarsier, etc.</li>
+                        <li>Recommended place/s to visit: Chocolate Hills </li>
+                    </ul>
+                    <img src="https://www.tripsavvy.com/thmb/mVjweu1yxU7fteUWpLPDUEqNPns=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/chocolatehillsphilipines-5bc27da54cedfd0026d12126.jpg" width="300px">
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <h1>Coronado | 9-Topaz </h1>
+                <h4>Read more: 
+                    <a href="https://www.detourista.com/guide/philippines-best-places"> best places in the philippines</a>
+                </h4>
+            </div>
+            <br>
+        </div>
+        <br/>
+
+        <!--button, when pressed will redirect to mainpage-->
+        <a href="mainpage.html" class="btn btn-info container-fluid mb-3" >Return to Main Page</a>
+
+    </body>
+</html>
